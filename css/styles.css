@@ -1,0 +1,367 @@
+
+
+a:link {
+	color: #fcdbff;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:visited {
+	color: #7b63a7;
+	font-weight: normal;
+}
+
+a:hover {
+	color: #ff8fdd;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a.menu {
+	font-family: Poppins Light;
+	display: block;
+	padding: 0.4em;
+	background-color: rgb(193, 138, 11);
+	color: white;
+	border-radius: 6px;
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+
+a.menu:hover {
+	background-color: rgb(246, 206, 4);
+}
+
+p {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	
+	border-radius: 10px;
+	color: #d4d4d4;
+	
+	transition: all 0.3s ease;
+}
+
+p.otro {
+	border-style: dotted;
+}
+
+body {
+	font-family: Poppins Light;
+	color: #ececec;
+	background-color: #393939;
+	margin: 0;
+	padding: 0 1em;
+}
+
+img,
+video,
+canvas {
+	max-width: 100%;
+	height: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    color: #fbd9ee;
+    font-weight: bold;
+    font-size: 1.6em;
+    background-color: #920044;
+    text-transform: uppercase;
+}
+
+/* Ajustes opcionales para el logo */
+figure.logo {
+    margin: 0;
+}
+
+img.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+
+nav {
+	background-color: #e66ab54a;
+	padding: 10px 20px;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	padding: 8px 15px;
+	color: white;
+	font: bold 15px Arial, sans-serif;
+}
+
+nav li:hover {
+	background-color: #495057;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+aside {
+	float: right;
+	width: 200px;
+	margin: 20px 0;
+	padding: 15px;
+	background: #81818177;
+	border-radius: 8px;
+	color: #ffffff;
+}
+
+section {
+	float: left;
+	width: calc(100% - 300px);
+	margin: 20px 20px 20px 0;
+	padding: 1em;
+	background-color: #7e05628c;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+footer .contenedor {
+	padding: 1em;
+	
+	text-align: center;
+}
+
+footer .nosotros {
+	max-width: 600px;
+	margin: 0 auto;
+	
+}
+
+footer .nosotros h2 {
+	font-size: 1.2em;
+	
+	margin-bottom: 0.5em;
+}
+
+footer .nosotros p {
+	font-size: 0.95em;
+	color: #fffbfdf7;
+	background-color: #52bee849;
+	border: none;
+}
+
+footer p.copyright {
+	text-align: center;
+	margin-top: 1em;
+	font-size: 0.85em;
+	color: #fffbfdf7;
+	background-color: #5a003965;
+	border: none;
+}
+
+
+#titPral {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Responsivo */
+@media screen and (max-width: 800px) {
+	header {
+		height: auto;
+		font-size: 1.2em;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	section,
+	aside {
+		float: none;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	nav li {
+		display: block;
+		margin: 5px 0;
+	}
+}
+
+
+/* Estilo moderno para login y sección principal */
+
+
+
+label {
+	font-weight: 600;
+	color: #1e293b;
+	display: block;
+	margin-top: 0.5em;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 0.6em;
+	
+	background-color: #91386dae;
+	border-radius: 8px;
+	width: 220px;
+	margin-top: 0.3em;
+	transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	border-color: #c360b4;
+	outline: none;
+}
+
+input[type="submit"] {
+	margin-top: 1em;
+	padding: 0.6em 1.2em;
+	background-color: #1e293b;
+	font-family: Poppins Light;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #0f172a;
+}
+
+/* Botón Iniciar Sesión en la cabecera */
+button.iniciar-sesion,
+a.iniciar-sesion {
+	background-color: #1e1b4b;
+	color: white;
+	padding: 0.6em 1.5em;
+	border-radius: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	transition: background-color 0.3s ease;
+}
+
+button.iniciar-sesion:hover,
+a.iniciar-sesion:hover {
+	background-color: #4338ca;
+}
+
+/* Estilo general de las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    background-color: #ffffff11;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Poppins Light', sans-serif;
+}
+
+/* Encabezados de la tabla */
+table th {
+    background-color: #920044;
+    color: #ffffff;
+    text-align: left;
+    padding: 0.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Filas de datos */
+table td {
+    padding: 0.75em;
+    border-bottom: 1px solid #cccccc33;
+    color: #ececec;
+}
+
+/* Alternancia de color para filas */
+table tr:nth-child(even) {
+    background-color: #4a4a4a;
+}
+
+table tr:nth-child(odd) {
+    background-color: #393939;
+}
+
+/* Hover sobre fila */
+table tr:hover {
+    background-color: #5e00528c;
+    transition: background-color 0.3s ease;
+}
+
+/* Botones en la tabla */
+table button {
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    padding: 0.4em 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 0.5em;
+    transition: background-color 0.3s;
+}
+
+table button:hover {
+    background-color: #4338ca;
+}
+
+
+/* Botón Modificar - rosa claro */
+.btn-modificar {
+    background-color: #ffb6d9;
+    color: #3b0a36;
+    border: none;
+    padding: 0.4em 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-modificar:hover {
+    background-color: #ffa1cc;
+}
+
+input.btn-modificar {
+    background-color: #ffb6d9;
+    color: #3b0a36;
+    border: none;
+    padding: 0.2em 1em;
+	margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+input.btn-modificar:hover {
+    background-color: #ffa1cc;
+}
+
+
+/* Botón Eliminar - rojo */
+.btn-eliminar {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 0.4em 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 0.5em;
+    transition: background-color 0.3s;
+}
+
+.btn-eliminar:hover {
+    background-color: #b91c1c;
+}
